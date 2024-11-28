@@ -1,4 +1,4 @@
-Tentu! Berikut adalah README.md yang bisa Anda salin dan gunakan:
+
 
 # Laravel 11 dengan Filament
 
