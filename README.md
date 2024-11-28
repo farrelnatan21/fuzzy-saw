@@ -36,6 +36,7 @@ cp .env.example .env
 
 Kemudian buka file .env dan sesuaikan konfigurasi database dan pengaturan lainnya sesuai dengan kebutuhan Anda:
 
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
