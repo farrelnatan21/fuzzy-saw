@@ -18,7 +18,7 @@ Ini adalah aplikasi Laravel 11 yang menggunakan Filament sebagai admin panel. Ik
 
 Clone repositori ke komputer lokal Anda:
 
-```bash
+
 git clone https://github.com/username/repository-name.git
 cd repository-name
 
