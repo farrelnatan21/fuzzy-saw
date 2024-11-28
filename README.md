@@ -43,47 +43,47 @@ DB_PORT=3306
 DB_DATABASE=nama_database
 DB_USERNAME=root
 DB_PASSWORD=
-
+```
 4. Generate Key Aplikasi
 
 Generate key aplikasi Laravel dengan perintah berikut:
-
+```
 php artisan key:generate
-
+```
 5. Migrasi Database
 
 Jalankan migrasi untuk membuat tabel-tabel di database:
-
-php artisan migrate
-
+```
+php artisan migrate --seed
+```
 6. Install Filament
 
 Instal Filament menggunakan Composer:
-
+```
 composer require filament/filament
-
+```
 Setelah itu, jalankan perintah berikut untuk menginstall Filament secara penuh:
-
+```
 php artisan filament:install
-
+```
 Ini akan mempublikasikan file konfigurasi dan sumber daya untuk Filament.
 7. Setup User Admin untuk Filament
 
 Filament menggunakan sistem autentikasi Laravel. Untuk membuat pengguna admin, jalankan perintah berikut:
-
+```
 php artisan make:filament-user
-
+```
 Perintah ini akan meminta Anda untuk memasukkan nama, email, dan password untuk pengguna admin.
 8. Install Dependensi Frontend (Opsional)
 
 Jika Anda ingin mengelola aset frontend (misalnya, untuk menjalankan Vite atau Mix), jalankan perintah berikut:
-
+```
 npm install
-
+```
 Jika menggunakan Vite atau Laravel Mix, Anda bisa menjalankan:
-
+```
 npm run dev
-
+```
 9. Menjalankan Server
 
 Sekarang Anda dapat menjalankan aplikasi menggunakan server lokal Laravel:
